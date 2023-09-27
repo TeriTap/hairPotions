@@ -1,0 +1,305 @@
+/*
+  Hair Potions Style Sheet
+
+  Author: Teri
+  Filename: styles.css
+
+*/
+
+
+/*  html  */
+html {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+}
+
+/*  Body  */
+body {
+  background-image: url(images/pattern0.jpg);
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  font-family: 'Shadows Into Light', 'Quicksand', sans-serif;
+  font-size: 3em;
+  line-height: 1.2em;
+  text-shadow: rgb(161, 130, 118) 2px 2px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 1em;
+  text-shadow: rgb(161, 130, 118) 1px 1px;
+  margin: 1%;
+  padding: 1%;
+}
+
+img {
+  border: 4px solid rgb(161, 130, 118);
+  border-radius: 20px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*  Body Header  */
+body > header {
+  background-color: rgb(161, 130, 118);
+  width: 100%;
+  min-height: 40%;
+}
+
+img.header-logo {
+  float: left;
+  margin: auto;
+  width: 9.5%;
+  height: auto;
+  border-color: rgb(161, 130, 118);
+}
+
+nav.navLinks ul {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+nav.navLinks li {
+  background-color: rgb(161, 130, 118);
+  color: rgb(53, 53, 53);
+  font-size: 1.2em;
+  line-height: 2em;
+  text-align: center;
+  padding: auto;
+  margin: 2%;
+}
+
+nav.navLinks a:link, nav.navLinks a:visited {
+  color: black;
+}
+
+nav.navLinks a:hover, nav.navLinks a:active {
+  color: rgb(183, 173, 207);
+  padding: 2%;
+  border: 2px solid rgb(183, 173, 207);
+  border-radius: 5px;
+}
+
+/*  Body Main */
+body > main {
+  background-image: linear-gradient(45deg, rgba(222, 231, 231), rgba(218, 198, 181));
+  margin: 0 10%;
+  padding: 10%;
+}
+
+p > a {
+  color: rgb(183, 173, 207);
+}
+
+p a:hover, a:visited{
+  color: rgb(185, 210, 177);
+}
+
+
+
+/*  Body Footer  */
+footer {
+  background-color: rgb(161, 130, 118);
+  width: 100%;
+  min-height: 40%;
+  color: rgb(53, 53, 53);
+  font-size: 1.2em;
+  line-height: 2em;
+  text-align: center;
+  padding-top: 3%;
+}
+
+
+/*  Index Article  */
+h1  {
+  font-size: 5em;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+
+article > img.profile_pic {
+  display: block;
+  width: 50%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article > p {
+  font-size: 2em;
+  line-height: 1em;
+  text-align: center;
+  margin: 10%;
+  text-shadow: rgb(218, 198, 181) 1px 1px;
+}
+
+
+/*  Index Aside  */
+section#masonry {
+  column-count: 2;
+  column-gap: 3%;
+  padding: 1%;
+  margin: 5%;
+}
+
+div.item {
+  font-size: 1.2em;
+  padding: 1%;
+  margin: 5%;
+  text-shadow: rgb(222, 231, 231) 1px 1px;
+}
+
+
+/*  Services Section  */
+h1 {
+  font-size: 5em;
+  text-align: center;
+}
+
+div > img.services {
+  float: left;
+  width: 25%;
+  height: 30%;
+  padding: auto;
+  margin: 4%;
+}
+
+div#salon_services {
+  clear: left;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 40%;
+  align-items: center;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.4em;
+}
+
+ul.services {
+  padding: auto;
+  margin: 5.5%;
+  text-align: center;
+  text-shadow: rgb(218, 198, 181) 1px 1px;
+}
+
+/*  Services Aside */
+aside.tips {
+  text-align: center;
+  margin: auto;
+  text-shadow: rgb(222, 231, 231) 1px 1px;
+}
+
+
+/*  About */
+section.about > img {
+  float: left;
+  height: auto;
+  width: 25%;
+  margin: 1%;
+}
+
+section.about > h2 {
+  text-align: left;
+}
+
+section.about > p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  padding: 2%;
+  margin: 2%;
+  text-shadow: rgb(218, 198, 181) 1px 1px;
+}
+
+
+/*  About Result Pics */
+div.about > h2 {
+  text-align: center;
+  margin: 3%;
+}
+
+section#results {
+  column-count: 4;
+  column-gap: 6px;
+}
+
+section#results > img {
+  height: 260px;
+  width: 50%;
+}
+
+
+/*  Contact */
+main.contact > aside {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-align: center;
+  margin: 10%;
+  text-shadow: rgb(218, 198, 181) 1px 1px;
+}
+
+main.contact > img {
+  height: auto;
+  width: 60%;
+  margin: 10px auto;
+}
+
+main.contact > address {
+  font-size: 1.4rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 10%;
+  text-shadow: rgb(222, 231, 231) 1px 1px;
+}
+
+
+
+
+/* =============================================
+  Tablet layout styles used by devices
+  481px to 768px and cascaded to larger 
+  devices.
+   =============================================
+*/
+
+
+@media only screen and (min-width: 481px) {
+
+  img.header-logo {
+    width: 6.5%;
+  }
+}
+
+/* =============================================
+  Desktop layout styles used by  devices
+  769px and larger.
+   =============================================
+*/
+
+@media only screen and (min-width: 769px) {
+  /*  header */
+  img.header-logo {
+    width: 5.5%;
+  }
+
+  /*  Index */
+  section#masonry {
+    column-count: 3;
+    column-gap: 3%;
+  }
+
+  /* Services  */
+  div > img.services {
+    margin-left: 4%;
+  }
+
+}
